@@ -43,42 +43,95 @@
 
 
       <!-- NAVBAR -->
-      <nav class="navbar  navbar-expand-xl">
+      <div class="container nav-container">
+        <div class="row">
 
-      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
+                <nav class="navbar  navbar-expand-xl" style="margin-right: 0px; margin-left:0px">
 
-          <li class="nav-item">
-            <a class="nav-link " id="link-1a" href="#">ABOUT US</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" id="link-1a" href="#">COMMITTE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="link-1a" href="#">CALL FOR</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link " id="link-1a" href="#">REGISTER</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SPECIAL SESSION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONFERENCE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SPONSERS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="#">CONTACT US</a>
-          </li>
-        </ul>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" id="link-1a" href="#">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT
+                  </a>
+                  <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">About College</a>
+                    <a class="dropdown-item" href="#">About Conference</a>
+                    <a class="dropdown-item" href="#">About Society</a>
+
+
+                  </div>
+                </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" id="link-1a" href="#">COMMITTE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100px">
+                    CALL FOR
+                  </a>
+                  <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Call for Paper</a>
+                    <a class="dropdown-item" href="#">Call for Reviewer</a>
+                    <a class="dropdown-item" href="#">Special Session</a>
+
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                REGISTER
+              </a>
+              <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Registration Fees</a>
+                <a class="dropdown-item" href="#">Important Dates</a>
+
+
+
+              </div>
+            </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="width: 160px; margin-right: 0px;">SPECIAL SESSION</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CONFERENCE
+                  </a>
+                  <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Conference Brochure</a>
+                    <a class="dropdown-item" href="#">Previous Conferences</a>
+
+
+
+                  </div>
+                </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SPONSERS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SCHEDULE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link" href="#" style="margin-right: 0px; width: 120px">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link" href="#" style="margin-right: 0px">VENUE</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          </div>
+        </div>
+
       </div>
-    </nav>
-</div>
+
 
     <!-- CAROUSEL -->
 
@@ -99,8 +152,16 @@
     </div>
     <div class="text-on-image w-100 ">
       <h1 class="image-text" style="margin-left:15%; text-align: center">5th International Conference On Emerging Smart <br> Computing & Informatics 2023(Hybrid Model) <br> (1, 2 & 3 march 2023) </h1>
-      <div class="image-btn " style="padding-top: 10px;"align="center">
-        <span><button type="button" class="btn btn-outline-light">Important Dates</button></span>   <span><button type="button" class="btn btn-outline-light">Paper Submission</button></span>
+      <div class="image-btn container " style="padding-top: 10px;"align="center">
+        <div class="row">
+          <div class="button1 column">
+            <button type="button" class="btn btn-lg btn-outline-light">Important Dates</button>
+          </div>
+          <div class="button2 column">
+            <button type="button" class="btn btn-lg btn-outline-light">Paper Submission</button>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -212,17 +273,29 @@
 
   <!-- SPONSERS -->
 
-  <section id="press">
+  <section id="press" style="padding-bottom: 0px">
     <div class="row"style="padding-top: 15px;padding-left: 100px">
-      <div class="" >
+      <div class="column" style="padding-right: 0px; padding-left: 0px;">
         <h2>Our Media Partners</h2>
-        <img class="prss-logo" src="images/techcrunch.png" alt="tc-logo">
-        <img class="prss-logo" src="images/tnw.png" alt="tnw-logo">
+        <div class="column" >
+            <img class="prss-logo" src="images/media1.png" alt="tc-logo" style="width: 250px;">
+        </div>
+        <div class="column">
+            <img class="prss-logo" src="images/media2.png" alt="tnw-logo" style="width: 250px;">
+        </div>
+
+
       </div>
-      <div class="">
+      <div class="column" style="float:right; padding-right:0px;padding-left: 0px;">
         <h2>Academic Partners</h2>
-        <img class="prss-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-        <img class="prss-logo" src="images/mashable.png" alt="mashable-logo">
+        <div class="column">
+          <img class="prss-logo" src="images/academic1.png" alt="biz-insider-logo" style="width: 250px;">
+        </div>
+        <div class="column" >
+          <img class="prss-logo" src="images/academic2.png" alt="mashable-logo" style="width: 250px;">
+        </div>
+
+
 
       </div>
 
@@ -231,13 +304,67 @@
 
     </section>
 
+    <!-- OUR INFO -->
+
+    <section id="our-info">
+   <div class="container">
+     <div class="row">
+
+       <div class="box col-lg-4">
+         <h4>Venue</h4><br>
+         <h6>NMIET</h6><br>
+         <p>
+           Nutan Maharashtra Institute of Engineering & Technology, Nutan Maharashtra Institute Of Engineering And Technology, Vishnupuri, Talegaon Dabhade, Maharashtra
+         </p>
+
+       </div>
+       <div class="box col-lg-4">
+         <h4>Our mission</h4>
+         <p>Empowering Society through dynamic education</p><br>
+         <h4>Previous Conference</h4>
+         <ul>
+           <li>
+             <a class="cam" href="https://ieeexplore.ieee.org/xpl/conhome/8001602/proceeding">IEEE WIECON-EE 2016</a>
+           </li>
+           <li>
+             <a class="cam" href="https://ieeexplore.ieee.org/xpl/conhome/9163075/proceeding">IEEE ESCI 2020</a>
+           </li>
+           <li>
+             <a class="cam" href="https://ieeexplore.ieee.org/xpl/conhome/9396768/proceeding">IEEE ESCI 2021</a>
+           </li>
+         </ul>
+
+       </div>
+       <div class="box col-lg-4">
+         <h4>Important Links</h4>
+         <ul>
+           <li>
+             <a class="cam" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FESCI2023">Submit Paper</a>
+           </li>
+           <li>
+             <a class="cam" href="https://www.ieee.org/conferences/publishing/templates.html">Download the Template</a>
+           </li>
+           <li>
+             <a class="cam" href="#">About Conference</a>
+           </li>
+           <li>
+             <a class="cam" href="#">Registration Fees </a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </div>
+
+
+
+ </section>
+
+
+
+
     <div class="footer">
-   <h2 class="footer-para">Connect With Us At..</h2>
-   <i class="footer-link footer-btn fa-brands fa-twitter" href="https://twitter.com/pccoe_pune"></i>
-   <i class="footer-link footer-btn fa-brands fa-facebook"></i>
-   <i class="footer-link footer-btn fa-brands fa-instagram"></i>
-   <i class="footer-link footer-btn fa-solid fa-envelope"></i>
-   <p>© ESCI-2023 NMIET </p>
+
+   <p>© 2023 ESCI-2023 NMIET | Made By Web Committe </p>
 
 
  </div>
