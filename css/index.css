@@ -1,0 +1,202 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.navbar {
+  background-color: white;
+  color: black;
+}
+
+a, li {
+  color: black;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.link {
+  margin-right: 280px;
+}
+
+a:hover {
+  color: dark-blue;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  color:
+    dark-blue;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.top-p {
+  color: #333;
+  font-weight: 500;
+  word-spacing: normal;
+}
+.span1 {
+  color: #333;
+  font-weight: normal;
+
+  font-size: 35px;
+}
+
+.top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.parallax h2 span {
+  color: #3b578e;
+  font-size: 80%;
+  letter-spacing: 0.5vw;
+}
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f4fb;
+  /* margin-bottom: 7vw; */
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  .third {
+    order: 3;
+  }
+}
+
+.Effect {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-size: 72px;
+  top: 50%;
+  width: 100%;
+  color: #201c44;
+  background-color: #f1f4fb;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translateY(-50%);
+  letter-spacing: 0.2em;
+}
+
+.img {
+  opacity: 1;
+  filter: brightness(30%);
+}
+
+
+.text-on-image {
+  position: absolute;
+  top: 45%;
+  left: 750px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  align-self: center;
+}
+
+.image-text {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 45px;
+
+}
+.mid-para {
+  text-align: left;
+  padding: 20px 20px 5px 20px;
+}
+.tracks {
+  padding: 100px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 60px;
+
+}
+.last-para {
+  padding: 30px;
+  background-color: black;
+  text-align: left;
+}
+.last-para-text {
+line-height: 2.5rem;
+  padding-left: 100px;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+.sponsors {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+#press {
+  background-color: pink;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.footer-link {
+  padding: 10px;
+}
+
+.footer-para {
+  font-size: 2rem;
+  font-family: serif;
+  color: #002B5B;
+}
+.sp-img2 {
+  float:right;
+}
