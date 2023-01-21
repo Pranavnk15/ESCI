@@ -5,9 +5,28 @@ body {
   margin-left: -20px;
 }
 
+#inbar{
+  padding-bottom: 15%;
+}
+
+@media(max-width: 1028px)  {
+  #inbar{
+    padding-bottom: 25%;
+  }
+}
+
+
+.nav-link{
+  font-weight: bold;
+}
+
 .navbar {
   background-color: white;
   color: black;
+}
+
+.ctive{
+  font-weight: bolder;
 }
 
 a, li {
@@ -55,10 +74,10 @@ a:hover:after {
   font-weight: 500;
   word-spacing: normal;
 }
+
 .span1 {
   color: #333;
   font-weight: normal;
-
   font-size: 35px;
 }
 
@@ -66,8 +85,6 @@ a:hover:after {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-
 
 .parallax h2 span {
   color: #3b578e;
@@ -82,7 +99,7 @@ a:hover:after {
   /* margin-bottom: 7vw; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .container-fluid {
     display: flex;
     flex-flow: column;
@@ -99,19 +116,11 @@ a:hover:after {
   .third {
     order: 3;
   }
-}
-.nav-container {
-  align-items: center;
-}
-.nav-item {
-  font-size: 15px;
-}
-.navbar {
-  width: 500px !important;
-  margin: 0px auto;
-  left: 0;
-  right: 0;
-  padding: 0;
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+  }
 }
 .navbar-toggler {
   outline: 2px solid white;
@@ -123,6 +132,23 @@ a:hover:after {
 }
 
 
+
+.nav-container {
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 15px;
+}
+
+.navbar {
+  width: 500px !important;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -133,7 +159,7 @@ a:hover:after {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -144,11 +170,17 @@ a:hover:after {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
 
 .Effect {
   margin: 0;
@@ -166,101 +198,11 @@ a:hover:after {
   letter-spacing: 0.2em;
 }
 
-.img {
-  opacity: 1;
-  filter: brightness(30%);
-}
 
-
-.text-on-image {
-  position: absolute;
-  top: 45%;
-  left: 750px;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: white;
-  align-self: center;
+#info{
+  padding-left: 13%;
+  padding-right: 40%;
 }
-.button1 {
-  flex-direction: row;
-  justify-content:space-between;
-
-}
-.button2 {
-  flex: auto;
-  justify-content:flex-end;
-  float: right;
-}
-
-.image-text {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
-  font-size: 45px;
-
-}
-.mid-para {
-  text-align: left;
-  padding: 20px 20px 5px 20px;
-}
-.tracks {
-  padding: 100px;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 60px;
-
-}
-.last-para {
-  padding: 30px;
-  background-color: black;
-  text-align: left;
-}
-.last-para-text {
-line-height: 2.5rem;
-  padding-left: 100px;
-  color: white;
-  font-size: 25px;
-  font-style: italic;
-}
-.sponsors {
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-}
-#press {
-  background-color: pink;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-#our-info{
-  background-color: #39B5E0;
-  color: white;
-}
-.box {
-    flex: 1;
-    padding-top: 20px;
-    padding-right: 40px;
-}
-.cam{
-  color: white;
-}
-
-.container-fluid{
-  text-align: center;
-}
-
-h6{
-  color: red;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 
 .footer {
   background-color: white;
@@ -276,7 +218,4 @@ h6{
   font-size: 2rem;
   font-family: serif;
   color: #002B5B;
-}
-.sp-img2 {
-  float:right;
 }

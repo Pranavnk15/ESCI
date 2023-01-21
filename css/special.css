@@ -106,13 +106,6 @@ a:hover:after {
 .nav-item {
   font-size: 15px;
 }
-.navbar {
-  width: 500px !important;
-  margin: 0px auto;
-  left: 0;
-  right: 0;
-  padding: 0;
-}
 .navbar-toggler {
   outline: 2px solid white;
   background-color: black;
@@ -122,6 +115,13 @@ a:hover:after {
   z-index: 999;
 }
 
+.navbar {
+  width: 500px !important;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
 
 .dropdown {
   position: relative;
@@ -263,9 +263,9 @@ h6{
 
 
 .footer {
-  background-color: white;
+  background-color: #f8f8f8;
   text-align: center;
-  padding: 5% 10%;
+  padding: 2% 5%;
 }
 
 .footer-link {
@@ -279,4 +279,21 @@ h6{
 }
 .sp-img2 {
   float:right;
+}
+.body{
+  padding-top: 170px;
+}
+.specialSession1{
+  padding-left: 250px;
+}
+.specialSession2{
+padding-left: 250px;
+padding-right: 150px;
+}
+.Proposal:hover {
+    color: red;
+}
+.table{
+  padding-top: 15px;
+padding-left:  250px;
 }
