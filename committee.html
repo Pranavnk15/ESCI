@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Committee</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+ <!-- bootstrap -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- css animation -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <!-- css stylesheet -->
+ <link rel="stylesheet" href="css/committee.css">
+ <!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+ <!-- font awsome -->
+ <script src="https://kit.fontawesome.com/a844c89978.js" crossorigin="anonymous"></script>
+ <!-- lottie animations -->
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <style>
+ table, td, th {
+ border: 2px solid black;
+}
+
+table {
+ border-collapse: collapse;
+ width: 40%;
+
+}
+
+th, td {
+  height: 60px;
+ padding: 20px;
+ text-align: left;
+ border-bottom: 1px solid rgb(183, 184, 188);
+}
+
+tr:nth-child(even) {
+ background-color: #bfbcc2;
+}
+
+table.center {
+ margin-left: auto;
+ margin-right: auto;
+}
+</style>
+   <style>
+     <head>
+
+     table, td, th {
+     border: 2px solid black;
+   }
+
+   table {
+     border-collapse: collapse;
+     width: 60%;
+
+   }
+
+   th, td {
+      height: 60px;
+     padding: 20px;
+     text-align: left;
+     border-bottom: 1px solid rgb(183, 184, 188);
+   }
+
+   tr:nth-child(even) {
+     background-color: #bfbcc2;
+   }
+
+   table.center {
+     margin-left: auto;
+     margin-right: auto;
+   }
+   </style>
+  <body>
+
+    <!-- TOP CONTAINER -->
+        <div class="top fixed-top" align='left' style="background-color: white; padding-right: -10px;">
+
+          <div class="container">
+             <div class="row">
+
+               <div class="col-sm-8 col-md-8 padd10" align="left">
+                 <div style="padding-bottom: 10px">
+                   <span class="span1">ESCI 2023 <br></span>
+                   <p class="top-p"> NMIET IOIT PUNE</p>
+                 </div>
+               </div>
+
+               <div class="clearfix"></div>
+             </div>
+           </div>
+
+
+           <!-- NAVBAR -->
+           <!-- NAVBAR -->
+           <div class="container nav-container">
+             <div class="row">
+
+                     <nav class="navbar  navbar-expand-xl" style="margin-right: 0px; margin-left:0px">
+
+                     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon "></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                       <ul class="navbar-nav ml-auto">
+
+                         <li class="nav-item dropdown">
+                           <a class="nav-link" id="link-1a" href="index.html">HOME</a>
+                         </li>
+
+                         <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         ABOUT
+                       </a>
+                       <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item" href="abtclg.html">About College</a>
+                         <a class="dropdown-item" href="abtcnf.html">About Conference</a>
+                         <a class="dropdown-item" href="#">About Society</a>
+
+
+                       </div>
+                     </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link" id="link-1a" href="committee.html">COMMITTE</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100px">
+                         CALL FOR
+                       </a>
+                       <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item" href="paper.html">Call for Paper</a>
+                         <a class="dropdown-item" href="#">Call for Reviewer</a>
+                         <a class="dropdown-item" href="special.html">Special Session</a>
+
+
+                       </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     REGISTER
+                   </a>
+                   <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="register.html">Registration Fees</a>
+                     <a class="dropdown-item" href="dates.html">Important Dates</a>
+
+
+
+                   </div>
+                 </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="spSes.html" style="width: 160px; margin-right: 0px;">SPECIAL SESSION</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         CONFERENCE
+                       </a>
+                       <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item" href="brochure.html">Conference Brochure</a>
+                         <a class="dropdown-item" href="prvcnf.html">Previous Conferences</a>
+
+
+
+                       </div>
+                     </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="sponsors.html">SPONSERS</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="http://esciioit.org/wp-content/uploads/2022/03/ESCI-2022-Schedule_3_3_2022_author-mail-without-session-chair.pdf">SCHEDULE</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link link" href="contact.html" style="margin-right: 0px; width: 120px">CONTACT US</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link link" href="venue.html" style="margin-right: 0px">VENUE</a>
+                         </li>
+                       </ul>
+                     </div>
+                   </nav>
+               </div>
+             </div>
+
+           </div>
+
+
+
+
+
+ <div class="container px-5 py-24 mx-auto" style="padding-top: 200px">
+  <div class="flex flex-col text-center w-full mb-20">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-red-900">Chief Patron</h1>
+
+               <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-col text-center w-full mb-20">
+                    <div class="container px-5 py-24 mx-auto">
+                  </div>
+                  <div class="flex flex-wrap -m-2">
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-300 border p-5 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/ShriShahuChhatrapatiMaharaj-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shrimant Shahu Chhatrapati Maharaj</h2>
+                          <p class="text-red-500">President</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/ShriSambhajirajeChhatrapati-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shri Sambhaji Raje Chhatrapati</h2>
+                          <p class="text-red-500">Vice – President</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/ShriMalojirajeChhatrapati-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shri Malojiraje Chhatrapati</h2>
+                          <p class="text-red-500">Honorary Secretary</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/ShriSureshPratapShinde-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shri Suresh Pratap Shinde</h2>
+                          <p class="text-red-500">Honorary Joint Secretary</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/Ajay-Patil.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shri Ajay Uttamrao Patil</h2>
+                          <p class="text-red-500">Treasurer</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/ShriVishwasBajiraoPatil-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Shri Vishwas Bajirao Patil</h2>
+                          <p class="text-red-500">Chairman, Governing Council</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2021/09/Girish-Khilari.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Girish Khilari </h2>
+                          <p class="text-red-500">Chair, IEEE Pune Section</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-6" src="https://esciioit.org/wp-content/uploads/2020/03/AdvBhagwanraoSalunkhe-200x249-1.jpg">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Adv Bhagwanrao B Salunkhe</h2>
+                          <p class="text-red-500">Chairman, Governing Council</p>
+                        </div>
+                      </div>
+                    </div>
+                    </section>
+
+                    <div class="container px-5 py-24 mx-auto">
+                      <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-red-900">Honorary Chair</h1>
+
+                      </div>
+                    <div class="flex flex-col text-center w-full mb-10">
+                    <section class="text-gray-600 body-font">
+                      <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+                        <div class="flex mx-auto flex-wrap mb-20">
+                        </div>
+                        <img class="xl:w-1/6 lg:w-2/3 md:w-1/5 w-1/6 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://esciioit.org/wp-content/uploads/2021/08/Seyedali-Mirjalili-Honorary-Chair-photo.jpg">
+                        <div class="flex flex-col text-center w-full">
+                          <h1 class="text-gray-700 title-font font-medium">Seyedali Mirjalili</h1>
+                        </div>
+                      </div>
+                    </section>
+
+
+
+
+                      <h1><center>
+                        Important Dates
+                      </center></h1>
+
+
+                      <table class="center">
+                        <tr>
+
+                          <th>COMMITTEE NAME</th>
+                          <th>FACULTIES INVOLVED</th>
+                        </tr>
+                        <tr>
+
+                          <td>General Chair</td>
+                          <td>Dr. P.B.Mane</td>
+                        </tr>
+                        <tr>
+
+                          <td>Advisory Committee</td>
+                          <td>Dr.V.K.Bairagi, Dr. S.V.Limkar & Dr. K. S. Wagh</td>
+                        </tr>
+                        <tr>
+
+                          <td>Organizing Chair</td>
+                          <td>	Dr. Y.P.Patil</td>
+                        </tr>
+                        <tr>
+
+                          <td>Finance & Registration Chair Finance & Registration Committee Members</td>
+                          <td>Dr. A.D.Shiralkar Mr.V.S.Kamble,  Mr. S.S.Shingare</td>
+                        </tr>
+                        <tr>
+
+                          <td>Technical Program Chair TPC Committee Members</td>
+
+                          <td>Dr. M.A.Thalor Dr. R.B Dhumale, Dr. H.D.Shinde</td>
+                        </tr>
+
+                        <tr>
+
+                          <td>Poster Session Chair (IEEE HAC Session)</td>
+                          <td>Dr. S. A. Panwar Mrs. Reshma Totre</td>
+                        </tr>
+                        <tr>
+
+                          <td>Publication Chair</td>
+                          <td>Dr. Naseem Khayum</td>
+                        </tr>
+                        <tr>
+
+                          <td>Plagiarism Check</td>
+                          <td>Ms P.V.Hirave Ms. M.P.Parulekar</td>
+
+
+                        </tr>
+                        <tr>
+                          <td>Program Chair</td>
+                          <td>Mrs Prajwal Gaikwad Mrs. Neelima Warade, Mrs. Mamta Wanjare</td>
+                        </tr>
+                        <tr>
+
+                          <td>Tutorial & Keynote Chair</td>
+                          <td>Mr. S.M.Chaudhary & Mrs. Saba Shaikh </td>
+                        </tr>
+                        <tr>
+                      <td>Special Session Chair</td>
+                      <td>Mrs. K. S. Gadgil, Mrs. V.A.Yawale Dr. B.N.Mohopatra, Dr.K.G.Wadikar, Mrs. Geeta Salunkhe, Mrs. Pragati Mahale, Mr. S.H.Lavate, Mrs. Archana Ubale, Mrs. N.S.Patil, Mrs. A.G.Said, Mrs. D.M.Yeole, Mr. R.A.Jamadar,</td>
+                    </tr>
+                    <tr>
+                      <td>Funding Proposal Committee (AICTE, SPPU, DST, UGC, BARC, CSIR, Etc..)</td>
+                      <td>Mr. Prashant P. Mahajan, Mrs. Shobha Nikam</td>
+                    </tr>
+                    <tr>
+                      <td>Publicity Chair</td>
+                      <td>Website & Social Media Chair</td>
+                    </tr>
+                    <tr>
+                      <td>Media Chair</td>
+                      <td>Mrs. Harshada Magar</td>
+                    </tr>
+                    <tr>
+                      <td>i-Connect and Sponsorship Chair	</td>
+                      <td>Dr. Mrunal Pathak</td>
+                    </tr>
+                    <tr>
+                      <td>Virtual Session Chair</td>
+                      <td>Mr. Pritesh Patil Mrs. S.O.Ahire</td>
+                    </tr>
+                    <tr>
+                      <td>Hospitality Committee</td>
+                      <td>Mr. Prashant G. Mahajan Mrs. M.P.Nerkar, Mr. Sagar Pokharkar</td>
+                    </tr>
+                    <tr>
+                      <td>Food Committee</td>
+                      <td>Mr. Milind Gajare, Mr. P.S. Sadaphule</td>
+                    </tr>
+                    <tr>
+                      <td>Venue Committee</td>
+                      <td>Dr. P.G.Musrif, Dr. D.S.Morey, Mr.S.V.Arlikar, Mr. P. B. Shinde, Mr. M. B. Nigade, Mr. A. H. Raheja</td>
+                    </tr>
+                    <tr>
+                      <td>International Partnership Committee</td>
+                      <td>Dr. A.R.Deshmukh</td>
+                    </tr>
+                    <tr>
+                      <td>Notices, Office Orders, Circulars, Memos, Minutes of Meeting</td>
+                      <td>Mrs. Jayashree Pasalkar Mrs. Archana Randive, Mrs.M.A.Zope,</td>
+                    </tr>
+                      </table>
+
+                      <table class="center">
+                        <tr>
+                         <td><strong>Sr no.</strong></td>
+                         <td> <strong>TRACK NAME</strong></td>
+                           <td ><strong>TRACK CHAIRS</strong></td>
+
+                        </tr>
+                        <tr>
+                          <tr>
+                            <td>1.</td>
+                            <td>	Soft Computing</td>
+                            <td>Dr. S. N. Zaware & Dr. K.S.Wagh</td>
+                          </tr>
+                          <tr>
+                            <td>2.</td>
+                            <td>Internet of Thing</td>
+                            <td>Dr. A. A. Shinde & Dr. V. V. Kale</td>
+                          </tr>
+                        </body>
+                      </table>
+
+
+                      <div class="footer">
+
+                        <p>© 2023 ESCI-2023 NMIET | Made By Web Committe </p>
+
+
+                      </div>
+
+
+
+  </body>
+</html>
